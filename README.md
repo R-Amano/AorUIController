@@ -1,6 +1,7 @@
 # R-Amano/AorUIController README (日本語)
-<img src="/source/pack_icon.png" width="200px" />
+<img src="/source/pack_icon.png" width="200px" />  
 Minecraft Bedrock Resource & Behavior  
+
 ## Athletic of Round UI Controller とは？ - What's AorUC?
 マインクラフト統合版アスレチックゲーム「円形アスレチック・リマスター」二章 より構築を考えているカスタムUIシステム。  
 おおよそのテンプレートを作成し、npcダイアログ等にコードを記述する事で様々なUI表現を可能にする。  
