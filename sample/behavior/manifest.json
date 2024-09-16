@@ -1,0 +1,17 @@
+{
+	"format_version":2,
+	"header":{
+		"name":"AorUC_Sample_behavior",
+		"description":"by Ryosuke Amano\nMIT LICENCE",
+		"uuid":"0e21ed0f-b498-4e5b-ade5-b71001086434",
+		"version":[0,0,1],
+		"min_engine_version":[1,20,0]
+	},
+	"modules":[
+		{
+			"type":"data",
+			"uuid":"ddaad81a-6090-4320-b180-f1287d2be78d",
+			"version":[1,0,0]
+		}
+	]
+}

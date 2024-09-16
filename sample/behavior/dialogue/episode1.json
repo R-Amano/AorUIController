@@ -1,0 +1,80 @@
+{
+	"format_version":"1.17",
+  "minecraft:npc_dialogue":{
+    "scenes":[
+      {
+        "scene_tag":"ep01",
+        "npc_name":"",
+        "text":"default",
+        "buttons":[
+          {
+            "name":"Next",
+            "commands":["dialogue open @e[type=npc,c=1] @initiator ep02"]
+          }
+        ]
+      },
+      {
+        "scene_tag":"ep02",
+        "npc_name":"sample/green",
+        "text":"imageTypeChara.§ePlayer1\n§fHi!",
+        "buttons":[
+          {
+            "name":"Next",
+            "commands":["dialogue open @e[type=npc,c=1] @initiator ep03"]
+          }
+        ]
+      },
+      {
+        "scene_tag":"ep03",
+        "npc_name":"acE.sample/red",
+        "text":"imageTypeChara.§ePlayer2\n§fHello World!",
+        "buttons":[
+          {
+            "name":"Next",
+            "commands":["dialogue open @e[type=npc,c=1] @initiator ep04"]
+          }
+        ]
+      },
+      {
+        "scene_tag":"ep04",
+        "npc_name":"acQ.sample/blue",
+        "text":"imageTypeChara.buttonTypeSelect.§ePlayer3\n§fWhat do you Like?",
+        "buttons":[
+          {
+            "name":"Answer1",
+            "commands":["dialogue open @e[type=npc,c=1] @initiator ep05"]
+          },
+          {
+            "name":"Answer2",
+            "commands":["dialogue open @e[type=npc,c=1] @initiator ep05"]
+          },
+          {
+            "name":"Answer3",
+            "commands":["dialogue open @e[type=npc,c=1] @initiator ep05"]
+          },
+          {
+            "name":"Answer4",
+            "commands":["dialogue open @e[type=npc,c=1] @initiator ep05"]
+          }
+        ]
+      },
+      {
+        "scene_tag":"ep05",
+        "npc_name":"sample/icon",
+        "text":"imageTypeIcon.§ePlayer4\n§fWow!\nIt's Amazing!",
+        "buttons":[
+          {
+            "name":"Next",
+            "commands":["dialogue open @e[type=npc,c=1] @initiator ep06"]
+          }
+        ]
+      },
+      {
+        "scene_tag":"ep06",
+        "npc_name":"sample/back1",
+        "text":"imageTypeFill.textAlignCenter.textBgFalse.\n§fThank you!",
+        "buttons":[{"name":"End"}]
+      }
+    ]
+  }
+}
