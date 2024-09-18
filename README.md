@@ -2,14 +2,15 @@
 <img src="/source/pack_icon.png" width="200px" />  
 Minecraft Bedrock Resource & Behavior  
 
-## Athletic of Round UI Controller とは？ - What's AorUC?
-マインクラフト統合版アスレチックゲーム「円形アスレチック・リマスター」二章 より構築を考えているカスタムUIシステム。  
-おおよそのテンプレートを作成し、npcダイアログ等にコードを記述する事で様々なUI表現を可能にする。  
-テンプレ可する事で自身の制作作業効率化に加え、第三者が円形アスレチック・リマスターにオリジナルのストーリーを展開させる事も可能と考えている。  
+## はじめに
+　AorUIControllerは、NPCダイアログにRPG風のUIを作成し、それをカスタムできるシステムです。MPCダイアログのテキストエディタに直接コードを記述する事で、簡単に様々なUIの表現を可能にしたいと考えている。テンプレ可する事で自身の作業効率化に加え、第三者がAorUCが有効な配布ワールドにオリジナルストーリーを展開させる事も可能となる。  
+　なお、JSON JIは将来 [OreUI](https://github.com/Mojang/ore-ui) に置き換えられる可能性があるため、使用できなくなる点に注意して下さい。また、一部のコードは既存のコード、例えばボタンやダイアログなどはテンプレートに依存している為、ゲームのアップデートで変更が生じた場合は使用できなくなる可能性にも留意して下さい。
 
-## 参考資料
+## 参考文献・資料
 JSON UI Documentation  
 https://wiki.bedrock.dev/json-ui/json-ui-documentation.html  
+NPC Dialogs  
+https://wiki.bedrock.dev/entities/npc-dialogs.html  
 
 ## バージョン - Version
 0.0.1 (bata)  
