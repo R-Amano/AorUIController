@@ -1,4 +1,4 @@
-# R-Amano/AorUIController README (日本語)
+# AorUIController README (日本語)
 <img src="/source/pack_icon.png" width="200px" />  
 Minecraft Bedrock Resource & Behavior  
 
